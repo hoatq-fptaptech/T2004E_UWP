@@ -43,3 +43,13 @@ C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424563200000000.json
+C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\ScrollviewDemo.xbf
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\ScrollviewDemo.g.i.cs
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\ScrollviewDemo.g.cs
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\ScrollviewDemo.xaml
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\ScrollviewDemo.xbf
+C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\SplitViewDemo.xbf
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\SplitViewDemo.g.i.cs
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\SplitViewDemo.g.cs
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\SplitViewDemo.xaml
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\SplitViewDemo.xbf
