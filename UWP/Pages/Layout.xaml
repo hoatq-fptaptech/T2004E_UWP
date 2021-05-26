@@ -13,7 +13,7 @@
             <ListView x:Name="MN" Margin="10" Loaded="Menu_Loaded">
                 <ListView.ItemTemplate>
                     <DataTemplate x:DataType="models:MenuItem">
-                        <ListViewItem>
+                        <ListViewItem Tapped="ListViewItem_Tapped">
                             <TextBlock Text="{x:Bind Name}"/>
                         </ListViewItem>
                     </DataTemplate>
@@ -22,7 +22,7 @@
         </SplitView.Pane>
         <SplitView.Content>
             <ScrollViewer Margin="10">
-                
+                <Frame x:Name="MainFrame"/>
             </ScrollViewer>
         </SplitView.Content>
     </SplitView>

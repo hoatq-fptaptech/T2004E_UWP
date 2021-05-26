@@ -33,5 +33,16 @@ namespace UWP.Pages
             MN.Items.Add(new MenuItem { Name = "Home", MenuPage = "home" });
             MN.Items.Add(new MenuItem { Name = "Category", MenuPage = "category" });
         }
+
+        private void ListViewItem_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            MenuItem item = MN.SelectedItem as MenuItem;// object vua nhan
+            switch (item.MenuPage)
+            {
+                case "home": MainFrame.Navigate(typeof(Pages.Home),"Day la trang chu");break;
+                case "category": MainFrame.Navigate(typeof(Pages.Category),"Day la trang category");break;
+            }
+           
+        }
     }
 }

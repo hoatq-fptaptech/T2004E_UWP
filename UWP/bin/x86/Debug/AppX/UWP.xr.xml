@@ -53,6 +53,8 @@
       <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="UWP.MainPage" />
+    <RootType FullName="UWP.Pages.Category" />
+    <RootType FullName="UWP.Pages.Home" />
     <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
       <RootProperty Name="OpenPaneLength" />
       <RootProperty Name="DisplayMode" />
@@ -71,12 +73,14 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
       <RootProperty Name="Content" />
+      <RootEvent Name="Tapped" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="Margin" />
       <RootProperty Name="Content" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
     <RootType FullName="UWP.Pages.Layout" />
     <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
       <RootProperty Name="Fill" />

@@ -73,6 +73,12 @@
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Category.xbf">
+      <PackagePath>Pages\Category.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Home.xbf">
+      <PackagePath>Pages\Home.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Layout.xbf">
       <PackagePath>Pages\Layout.xbf</PackagePath>
     </AppxPackagedFile>

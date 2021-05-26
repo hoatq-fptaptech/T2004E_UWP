@@ -13,7 +13,7 @@
             <ListView x:ConnectionId='2' x:Name="MN" Margin="10"                     >
                 <ListView.ItemTemplate>
                     <DataTemplate                             >
-                        <ListViewItem x:ConnectionId='4'>
+                        <ListViewItem x:ConnectionId='4'                             >
                             <TextBlock x:ConnectionId='5'                     />
                         </ListViewItem>
                     </DataTemplate>
@@ -22,7 +22,7 @@
         </SplitView.Pane>
         <SplitView.Content>
             <ScrollViewer Margin="10">
-                
+                <Frame x:ConnectionId='6' x:Name="MainFrame"/>
             </ScrollViewer>
         </SplitView.Content>
     </SplitView>

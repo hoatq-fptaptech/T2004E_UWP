@@ -58,3 +58,13 @@ C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Layout.g.i.cs
 C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Layout.g.cs
 C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Layout.xaml
 C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Layout.xbf
+C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Category.xbf
+C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Home.xbf
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Category.g.i.cs
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Category.g.cs
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Home.g.i.cs
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Home.g.cs
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Category.xaml
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Home.xaml
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Category.xbf
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Home.xbf
