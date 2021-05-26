@@ -122,7 +122,11 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\MenuItem.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Pages\Layout.xaml.cs">
+      <DependentUpon>Layout.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\ScrollviewDemo.xaml.cs">
       <DependentUpon>ScrollviewDemo.xaml</DependentUpon>
     </Compile>
@@ -154,6 +158,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Layout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\ScrollviewDemo.xaml">
       <SubType>Designer</SubType>

@@ -9,6 +9,8 @@
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
@@ -51,24 +53,37 @@
       <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="UWP.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
+      <RootProperty Name="OpenPaneLength" />
+      <RootProperty Name="DisplayMode" />
+      <RootProperty Name="IsPaneOpen" />
+      <RootProperty Name="Pane" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ItemTemplate" />
+      <RootEvent Name="Loaded" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="Margin" />
       <RootProperty Name="Content" />
     </RootType>
+    <RootType FullName="UWP.Pages.Layout" />
     <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
       <RootProperty Name="Fill" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="UWP.Pages.ScrollviewDemo" />
-    <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
-      <RootProperty Name="DisplayMode" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="IsPaneOpen" />
-      <RootProperty Name="OpenPaneLength" />
-      <RootProperty Name="Pane" />
-      <RootProperty Name="Content" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
       <RootProperty Name="VerticalContentAlignment" />
       <RootProperty Name="HorizontalContentAlignment" />
@@ -84,18 +99,13 @@
       <RootProperty Name="FontFamily" />
       <RootProperty Name="Glyph" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
-      <RootProperty Name="Header" />
+    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
       <RootProperty Name="ItemTemplate" />
       <RootEvent Name="Loaded" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.DataTemplate">
-      <RootProperty Name="Template" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Children" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="UWP.Pages.SplitViewDemo" />
   </Roots.RootTypes>
 </Roots>

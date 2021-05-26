@@ -53,3 +53,8 @@ C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\SplitViewDemo.g.i.cs
 C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\SplitViewDemo.g.cs
 C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\SplitViewDemo.xaml
 C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\SplitViewDemo.xbf
+C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Layout.xbf
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Layout.g.i.cs
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Layout.g.cs
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Layout.xaml
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Layout.xbf

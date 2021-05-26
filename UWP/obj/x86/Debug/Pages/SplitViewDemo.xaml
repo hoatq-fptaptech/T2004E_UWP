@@ -17,19 +17,19 @@
             </AppBarButton>
         </SplitView.Pane>
         <ScrollViewer Margin="10">
-            <ListView x:ConnectionId='4' x:Name="ListUsers"                          >
-                <ListView.Header>
-                    <TextBlock Text="Danh sách người dùng"/>
-                </ListView.Header>
-                <ListView.ItemTemplate>
+            <GridView x:ConnectionId='4' x:Name="ListUsers"                          >
+
+                <GridView.ItemTemplate>
                     <DataTemplate                         >
-                        <StackPanel x:ConnectionId='6'>
-                            <TextBlock x:ConnectionId='7'                     />
-                            <TextBlock x:ConnectionId='8'                      />
-                        </StackPanel>
+                        <Grid x:ConnectionId='6' Width="200" Height="50">
+                            <StackPanel>
+                                <TextBlock x:ConnectionId='7'                     />
+                                <TextBlock x:ConnectionId='8'                      />
+                            </StackPanel>
+                        </Grid>
                     </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                </GridView.ItemTemplate>
+            </GridView>
         </ScrollViewer>
     </SplitView>
 </Page>

@@ -17,19 +17,19 @@
             </AppBarButton>
         </SplitView.Pane>
         <ScrollViewer Margin="10">
-            <ListView x:Name="ListUsers" Loaded="ListUsers_Loaded">
-                <ListView.Header>
-                    <TextBlock Text="Danh sách người dùng"/>
-                </ListView.Header>
-                <ListView.ItemTemplate>
+            <GridView x:Name="ListUsers" Loaded="ListUsers_Loaded">
+
+                <GridView.ItemTemplate>
                     <DataTemplate x:DataType="models:User">
-                        <StackPanel>
-                            <TextBlock Text="{x:Bind Name}"/>
-                            <TextBlock Text="{x:Bind Email}"/>
-                        </StackPanel>
+                        <Grid Width="200" Height="50">
+                            <StackPanel>
+                                <TextBlock Text="{x:Bind Name}"/>
+                                <TextBlock Text="{x:Bind Email}"/>
+                            </StackPanel>
+                        </Grid>
                     </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                </GridView.ItemTemplate>
+            </GridView>
         </ScrollViewer>
     </SplitView>
 </Page>
