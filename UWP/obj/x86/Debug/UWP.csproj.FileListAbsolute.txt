@@ -68,3 +68,9 @@ C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Category.xaml
 C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Home.xaml
 C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Category.xbf
 C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Home.xbf
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\DemoFetchApi.g.i.cs
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\DemoFetchApi.g.cs
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\DemoFetchApi.xaml
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\DemoFetchApi.xbf
+C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\DemoFetchApi.xbf
+C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Newtonsoft.Json.dll
