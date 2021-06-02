@@ -125,12 +125,16 @@
     </Compile>
     <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\MenuItem.cs" />
+    <Compile Include="Models\TodaySpecial.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Pages\Category.xaml.cs">
       <DependentUpon>Category.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\DemoFetchApi.xaml.cs">
       <DependentUpon>DemoFetchApi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DemoFileHandle.xaml.cs">
+      <DependentUpon>DemoFileHandle.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
@@ -145,6 +149,7 @@
       <DependentUpon>SplitViewDemo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\FileHandleService.cs" />
     <Compile Include="Services\MenuService.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -176,6 +181,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\DemoFetchApi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\DemoFileHandle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-31T12:53:02.271</Modified>
+      <Modified>2021-06-02T11:45:58.375</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\UWP.exe">
       <PackagePath>entrypoint\UWP.exe</PackagePath>
-      <Modified>2021-05-31T12:53:00.333</Modified>
+      <Modified>2021-06-02T11:45:57.555</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\QuangHoa\.nuget\packages\newtonsoft.json\13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -90,39 +90,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\UWP.xr.xml">
       <PackagePath>UWP.xr.xml</PackagePath>
-      <Modified>2021-05-31T11:37:31.650</Modified>
+      <Modified>2021-06-02T11:24:13.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-05-31T12:52:59.977</Modified>
+      <Modified>2021-06-02T11:44:06.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-05-31T12:52:59.977</Modified>
+      <Modified>2021-06-02T11:44:06.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Category.xbf">
       <PackagePath>Pages\Category.xbf</PackagePath>
-      <Modified>2021-05-31T12:52:59.977</Modified>
+      <Modified>2021-06-02T11:44:06.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\DemoFetchApi.xbf">
       <PackagePath>Pages\DemoFetchApi.xbf</PackagePath>
-      <Modified>2021-05-31T12:52:59.977</Modified>
+      <Modified>2021-06-02T11:44:06.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\DemoFileHandle.xbf">
+      <PackagePath>Pages\DemoFileHandle.xbf</PackagePath>
+      <Modified>2021-06-02T11:45:57.413</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
-      <Modified>2021-05-31T12:52:59.978</Modified>
+      <Modified>2021-06-02T11:44:06.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Layout.xbf">
       <PackagePath>Pages\Layout.xbf</PackagePath>
-      <Modified>2021-05-31T12:52:59.979</Modified>
+      <Modified>2021-06-02T11:44:06.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\ScrollviewDemo.xbf">
       <PackagePath>Pages\ScrollviewDemo.xbf</PackagePath>
-      <Modified>2021-05-31T12:52:59.980</Modified>
+      <Modified>2021-06-02T11:44:06.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\SplitViewDemo.xbf">
       <PackagePath>Pages\SplitViewDemo.xbf</PackagePath>
-      <Modified>2021-05-31T12:52:59.980</Modified>
+      <Modified>2021-06-02T11:44:06.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -130,11 +134,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-05-31T12:53:01.196</Modified>
+      <Modified>2021-06-02T11:24:14.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Core\UWP.exe">
       <PackagePath>UWP.exe</PackagePath>
-      <Modified>2021-05-31T12:53:02.252</Modified>
+      <Modified>2021-06-02T11:45:58.367</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -9,6 +9,7 @@ App.xbf
 MainPage.xbf
 Pages\Category.xbf
 Pages\DemoFetchApi.xbf
+Pages\DemoFileHandle.xbf
 Pages\Home.xbf
 Pages\Layout.xbf
 Pages\ScrollviewDemo.xbf

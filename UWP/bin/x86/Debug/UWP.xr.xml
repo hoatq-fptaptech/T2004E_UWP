@@ -44,6 +44,7 @@
       <RootProperty Name="Content" />
       <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
@@ -52,6 +53,9 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Text" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="UWP.MainPage" />
     <RootType FullName="UWP.Pages.Category" />
@@ -75,6 +79,7 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="UWP.Pages.DemoFetchApi" />
+    <RootType FullName="UWP.Pages.DemoFileHandle" />
     <RootType FullName="UWP.Pages.Home" />
     <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
       <RootProperty Name="OpenPaneLength" />

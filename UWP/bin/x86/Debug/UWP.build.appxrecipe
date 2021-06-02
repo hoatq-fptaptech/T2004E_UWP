@@ -82,6 +82,9 @@
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\DemoFetchApi.xbf">
       <PackagePath>Pages\DemoFetchApi.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\DemoFileHandle.xbf">
+      <PackagePath>Pages\DemoFileHandle.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
     </AppxPackagedFile>
