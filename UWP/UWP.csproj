@@ -117,12 +117,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Adapters\Adaper.cs" />
+    <Compile Include="Adapters\SQLiteHelper.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Cart.cs" />
+    <Compile Include="Models\CartItem.cs" />
     <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\MenuItem.cs" />
     <Compile Include="Models\TodaySpecial.cs" />
@@ -149,6 +152,7 @@
       <DependentUpon>SplitViewDemo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CartService.cs" />
     <Compile Include="Services\FileHandleService.cs" />
     <Compile Include="Services\MenuService.cs" />
   </ItemGroup>
@@ -211,6 +215,9 @@
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
       <Version>13.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="SQLitePCL">
+      <Version>3.8.7.2</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup />

@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SQLitePCL;
+using System.IO;
+using Windows.Storage;
 namespace UWP.Adapters
 {
     class SQLiteHelper
     {
-        private readonly string dbName = "t2004e";
+        private readonly string dbName = "t2004e.db";
 
         private static SQLiteHelper sQLiteHelper;
 
@@ -23,7 +25,8 @@ namespace UWP.Adapters
 
         private SQLiteHelper()
         {
-            sQLiteConnection = new SQLiteConnection(dbName); // tao db;
+            //string path = Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path, "t2004e.db");
+            sQLiteConnection = new SQLiteConnection("t2004e.db"); // tao db;
             CreateCartTable();
         }
 

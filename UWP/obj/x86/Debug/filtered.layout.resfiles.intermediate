@@ -17,3 +17,5 @@ Pages\SplitViewDemo.xbf
 UWP.xr.xml
 Properties\Default.rd.xml
 WinMetadata\Windows.winmd
+SQLitePCL.Ext.dll
+SQLitePCL.Ext.pri

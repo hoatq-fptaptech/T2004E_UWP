@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using UWP.Services;
+using UWP.Models;
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace UWP.Pages
@@ -25,6 +26,10 @@ namespace UWP.Pages
         public DemoFileHandle()
         {
             this.InitializeComponent();
+            CartItem c = new CartItem(1, "San pham so 1", "image1.png",1000,2);
+            Cart cart = new Cart();
+            cart.AddToCart(c);
+
         }
 
         private async void Read_File(object sender, RoutedEventArgs e) {

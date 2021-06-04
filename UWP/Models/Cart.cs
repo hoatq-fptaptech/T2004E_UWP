@@ -27,7 +27,22 @@ namespace UWP.Models
 
         public List<CartItem> GetCart()
         {
-            return null;
+            SQLiteHelper qLiteHelper = SQLiteHelper.GetInstance();
+            SQLiteConnection sQLiteConnection = qLiteHelper.sQLiteConnection;
+            string sql_txt = "select * from Cart";
+            var statement = sQLiteConnection.Prepare(sql_txt);
+            List<CartItem> list = new List<CartItem>();
+            while(SQLiteResult.ROW == statement.Step())
+            {
+                int id = Convert.ToInt32(statement[0]);
+                string name = (string)statement[1];
+                string image = (string)statement[2];
+                int price = Convert.ToInt32(statement[3]);
+                int qty = Convert.ToInt32(statement[4]);
+                CartItem c = new CartItem(id, name, image, price, qty);
+                list.Add(c);
+            }
+            return list;
         }
 
         public bool RemoveItem(CartItem item)

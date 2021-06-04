@@ -79,3 +79,10 @@ C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\DemoFileHandle.g.i.cs
 C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\DemoFileHandle.g.cs
 C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\DemoFileHandle.xaml
 C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\DemoFileHandle.xbf
+C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\SQLitePCL.Ext.dll
+C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\SQLitePCL.Ext.pri
+C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\SQLitePCL.dll
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\SQLitePCL\en\SQLitePCL.Resources.resw
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\resources.en.resfiles
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\resources.en.resfiles.intermediate
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\SQLitePCL.Ext.pri.xml

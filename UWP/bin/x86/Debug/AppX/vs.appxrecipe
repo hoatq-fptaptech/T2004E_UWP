@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-02T11:45:58.375</Modified>
+      <Modified>2021-06-04T11:41:41.750</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\UWP.exe">
       <PackagePath>entrypoint\UWP.exe</PackagePath>
-      <Modified>2021-06-02T11:45:57.555</Modified>
+      <Modified>2021-06-04T11:41:40.763</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\QuangHoa\.nuget\packages\newtonsoft.json\13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -46,9 +46,17 @@
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-11-20T02:09:24.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QuangHoa\.nuget\packages\sqlitepcl\3.8.7.2\lib\netcore451\SQLitePCL.dll">
+      <PackagePath>SQLitePCL.dll</PackagePath>
+      <Modified>2014-12-09T04:04:52.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-01T21:52:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QuangHoa\.nuget\packages\sqlitepcl\3.8.7.2\build\netcore451\SQLitePCL.Ext.dll">
+      <PackagePath>SQLitePCL.Ext.dll</PackagePath>
+      <Modified>2014-12-09T04:04:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -94,39 +102,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-06-02T11:44:06.835</Modified>
+      <Modified>2021-06-04T11:39:55.602</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-06-02T11:44:06.835</Modified>
+      <Modified>2021-06-04T11:39:55.602</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Category.xbf">
       <PackagePath>Pages\Category.xbf</PackagePath>
-      <Modified>2021-06-02T11:44:06.835</Modified>
+      <Modified>2021-06-04T11:39:55.602</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\DemoFetchApi.xbf">
       <PackagePath>Pages\DemoFetchApi.xbf</PackagePath>
-      <Modified>2021-06-02T11:44:06.836</Modified>
+      <Modified>2021-06-04T11:39:55.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\DemoFileHandle.xbf">
       <PackagePath>Pages\DemoFileHandle.xbf</PackagePath>
-      <Modified>2021-06-02T11:45:57.413</Modified>
+      <Modified>2021-06-04T11:39:55.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
-      <Modified>2021-06-02T11:44:06.837</Modified>
+      <Modified>2021-06-04T11:39:55.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Layout.xbf">
       <PackagePath>Pages\Layout.xbf</PackagePath>
-      <Modified>2021-06-02T11:44:06.838</Modified>
+      <Modified>2021-06-04T11:39:55.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\ScrollviewDemo.xbf">
       <PackagePath>Pages\ScrollviewDemo.xbf</PackagePath>
-      <Modified>2021-06-02T11:44:06.838</Modified>
+      <Modified>2021-06-04T11:39:55.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\SplitViewDemo.xbf">
       <PackagePath>Pages\SplitViewDemo.xbf</PackagePath>
-      <Modified>2021-06-02T11:44:06.838</Modified>
+      <Modified>2021-06-04T11:39:55.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -134,11 +142,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-06-02T11:24:14.525</Modified>
+      <Modified>2021-06-04T11:32:48.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Core\UWP.exe">
       <PackagePath>UWP.exe</PackagePath>
-      <Modified>2021-06-02T11:45:58.367</Modified>
+      <Modified>2021-06-04T11:41:41.744</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
