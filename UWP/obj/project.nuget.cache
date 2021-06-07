@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QT2AAQ1TbkqJtK+cLz2lmY54nfLA3BoDKJgZhkAOkYjrWkKLGHQAZiGbBTIjzrOvxCRX+871eRfitijmmzVIUQ==",
+  "dgSpecHash": "IoJVYx1jJDdX2WDNOLv6BCWc0+RNNBSR1JHut2rUXPNEr7szfUugROKaCuxs8U4Fq+w6MWUIWQ1AxaTyK2Is9Q==",
   "success": true,
   "projectFilePath": "C:\\Aptech\\SEM3\\T2004E\\UWP\\UWP\\UWP.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\QuangHoa\\.nuget\\packages\\microsoft.data.sqlite\\5.0.6\\microsoft.data.sqlite.5.0.6.nupkg.sha512",
+    "C:\\Users\\QuangHoa\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.6\\microsoft.data.sqlite.core.5.0.6.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.9-rel-29512-01\\microsoft.net.native.compiler.2.2.9-rel-29512-01.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.11\\microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
@@ -28,7 +30,13 @@
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.net.native.sharedlibrary\\2.2.8-rel-29512-01\\runtime.win10-x86.microsoft.net.native.sharedlibrary.2.2.8-rel-29512-01.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\\2.2.11\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.11\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
-    "C:\\Users\\QuangHoa\\.nuget\\packages\\sqlitepcl\\3.8.7.2\\sqlitepcl.3.8.7.2.nupkg.sha512"
+    "C:\\Users\\QuangHoa\\.nuget\\packages\\sqlitepcl\\3.8.7.2\\sqlitepcl.3.8.7.2.nupkg.sha512",
+    "C:\\Users\\QuangHoa\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\QuangHoa\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\QuangHoa\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\QuangHoa\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.4\\sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\QuangHoa\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\QuangHoa\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
   ],
   "logs": []
 }

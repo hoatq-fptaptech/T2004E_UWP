@@ -33,8 +33,11 @@ namespace UWP.Pages
         }
 
         private async void Read_File(object sender, RoutedEventArgs e) {
-            string txt = await FileHandleService.ReadFile("t2004e.txt");
-            TxtBlock.Text = txt;
+            OrderService os = new OrderService();
+            Cart cart = new Cart();
+            CreateOrder co = await os.CreateOrder(cart.GetCart());
+           // string txt = await FileHandleService.ReadFile("t2004e.txt");
+            TxtBlock.Text = co.data.order_id.ToString();
         }
 
         private void Write_File(object sender, RoutedEventArgs e)

@@ -16,6 +16,8 @@ Pages\ScrollviewDemo.xbf
 Pages\SplitViewDemo.xbf
 UWP.xr.xml
 Properties\Default.rd.xml
+sqlite3.def
+sqlite3.dll
 WinMetadata\Windows.winmd
 SQLitePCL.Ext.dll
 SQLitePCL.Ext.pri

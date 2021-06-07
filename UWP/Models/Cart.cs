@@ -47,14 +47,32 @@ namespace UWP.Models
 
         public bool RemoveItem(CartItem item)
         {
-            return false;
+            SQLiteHelper qLiteHelper = SQLiteHelper.GetInstance();
+            SQLiteConnection sQLiteConnection = qLiteHelper.sQLiteConnection;
+            string sql_txt = "delete from cart where id= ?";
+            var statement = sQLiteConnection.Prepare(sql_txt);
+            statement.Bind(1, item.id);
+            var rs = statement.Step();
+            return rs == SQLiteResult.OK;
         }
-         public bool UpdateCart(CartItem item, int qty) { 
-            return false;
-         }
+         public bool UpdateCart(CartItem item, int qty) {
+            SQLiteHelper qLiteHelper = SQLiteHelper.GetInstance();
+            SQLiteConnection sQLiteConnection = qLiteHelper.sQLiteConnection;
+            string sql_txt = "update cart set qty = ? where id= ?";
+            var statement = sQLiteConnection.Prepare(sql_txt);
+            statement.Bind(1, qty);
+            statement.Bind(2, item.id);
+            var rs = statement.Step();
+            return rs == SQLiteResult.OK;
+        }
         public bool ClearCart()
         {
-            return false;
+            SQLiteHelper qLiteHelper = SQLiteHelper.GetInstance();
+            SQLiteConnection sQLiteConnection = qLiteHelper.sQLiteConnection;
+            string sql_txt = "delete from cart";
+            var statement = sQLiteConnection.Prepare(sql_txt);
+            var rs = statement.Step();
+            return rs == SQLiteResult.OK;
         }
     }
 }

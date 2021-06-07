@@ -25,8 +25,8 @@ namespace UWP.Adapters
 
         private SQLiteHelper()
         {
-            //string path = Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path, "t2004e.db");
-            sQLiteConnection = new SQLiteConnection("t2004e.db"); // tao db;
+            string path = Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path, dbName);
+            sQLiteConnection = new SQLiteConnection(path); // tao db;
             CreateCartTable();
         }
 

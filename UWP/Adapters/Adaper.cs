@@ -32,6 +32,10 @@ namespace UWP.Adapters
             get => String.Format(baseURL + "/api/menu");
         }
 
+        public string GetCreateOrderApi
+        {
+            get => String.Format(baseURL + "/api/create-order");
+        }
 
     }
 }

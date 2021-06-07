@@ -30,13 +30,17 @@
     <AppXManifest Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-04T11:41:41.750</Modified>
+      <Modified>2021-06-07T11:28:04.373</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\UWP.exe">
       <PackagePath>entrypoint\UWP.exe</PackagePath>
-      <Modified>2021-06-04T11:41:40.763</Modified>
+      <Modified>2021-06-07T11:28:02.623</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QuangHoa\.nuget\packages\microsoft.data.sqlite.core\5.0.6\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
+      <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
+      <Modified>2021-04-13T13:58:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\QuangHoa\.nuget\packages\newtonsoft.json\13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -50,6 +54,26 @@
       <PackagePath>SQLitePCL.dll</PackagePath>
       <Modified>2014-12-09T04:04:52.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QuangHoa\.nuget\packages\sqlitepclraw.bundle_e_sqlite3\2.0.4\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2020-09-03T10:13:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QuangHoa\.nuget\packages\sqlitepclraw.core\2.0.4\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2020-09-03T10:13:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QuangHoa\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.4\runtimes\win10-x86\nativeassets\uap10.0\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2020-08-17T07:38:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QuangHoa\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.0.4\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2020-09-03T10:13:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QuangHoa\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2018-09-18T12:38:10.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-01T21:52:00.000</Modified>
@@ -57,6 +81,10 @@
     <AppxPackagedFile Include="C:\Users\QuangHoa\.nuget\packages\sqlitepcl\3.8.7.2\build\netcore451\SQLitePCL.Ext.dll">
       <PackagePath>SQLitePCL.Ext.dll</PackagePath>
       <Modified>2014-12-09T04:04:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2021-06-07T09:29:15.738</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -96,45 +124,49 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-05-18T11:55:04.270</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\sqlite3.def">
+      <PackagePath>sqlite3.def</PackagePath>
+      <Modified>2021-06-07T09:29:15.730</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\UWP.xr.xml">
       <PackagePath>UWP.xr.xml</PackagePath>
       <Modified>2021-06-02T11:24:13.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-06-04T11:39:55.602</Modified>
+      <Modified>2021-06-07T11:28:02.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-06-04T11:39:55.602</Modified>
+      <Modified>2021-06-07T11:28:02.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Category.xbf">
       <PackagePath>Pages\Category.xbf</PackagePath>
-      <Modified>2021-06-04T11:39:55.602</Modified>
+      <Modified>2021-06-07T11:28:02.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\DemoFetchApi.xbf">
       <PackagePath>Pages\DemoFetchApi.xbf</PackagePath>
-      <Modified>2021-06-04T11:39:55.603</Modified>
+      <Modified>2021-06-07T11:28:02.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\DemoFileHandle.xbf">
       <PackagePath>Pages\DemoFileHandle.xbf</PackagePath>
-      <Modified>2021-06-04T11:39:55.603</Modified>
+      <Modified>2021-06-07T11:28:02.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
-      <Modified>2021-06-04T11:39:55.603</Modified>
+      <Modified>2021-06-07T11:28:02.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Layout.xbf">
       <PackagePath>Pages\Layout.xbf</PackagePath>
-      <Modified>2021-06-04T11:39:55.604</Modified>
+      <Modified>2021-06-07T11:28:02.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\ScrollviewDemo.xbf">
       <PackagePath>Pages\ScrollviewDemo.xbf</PackagePath>
-      <Modified>2021-06-04T11:39:55.604</Modified>
+      <Modified>2021-06-07T11:28:02.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\SplitViewDemo.xbf">
       <PackagePath>Pages\SplitViewDemo.xbf</PackagePath>
-      <Modified>2021-06-04T11:39:55.604</Modified>
+      <Modified>2021-06-07T11:28:02.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -142,11 +174,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-06-04T11:32:48.978</Modified>
+      <Modified>2021-06-07T09:29:25.143</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Core\UWP.exe">
       <PackagePath>UWP.exe</PackagePath>
-      <Modified>2021-06-04T11:41:41.744</Modified>
+      <Modified>2021-06-07T11:28:04.354</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
