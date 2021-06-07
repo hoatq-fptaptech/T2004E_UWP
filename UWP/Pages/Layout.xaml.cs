@@ -23,9 +23,11 @@ namespace UWP.Pages
     /// </summary>
     public sealed partial class Layout : Page
     {
+        public static Frame _mainContent;
         public Layout()
         {
             this.InitializeComponent();
+            _mainContent = MainFrame;
         }
 
         private void Menu_Loaded(object sender, RoutedEventArgs e)

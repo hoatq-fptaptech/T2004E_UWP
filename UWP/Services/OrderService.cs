@@ -27,7 +27,7 @@ namespace UWP.Services
             HttpResponseMessage httpResponseMessage = await httpClient.PostAsync(uri, content);
             httpResponseMessage.EnsureSuccessStatusCode();
             var httpResponseBody = await httpResponseMessage.Content.ReadAsStringAsync();
-            CreateOrder createOrder = JsonConvert.DeserializeObject<CreateOrder>(httpResponseBody);
+            CreateOrder createOrder = JsonConvert.DeserializeObject<CreateOrder>(httpResponseBody);// sau khi có order id phải lưu lại trong client
             return createOrder;
         }
     }

@@ -27,7 +27,7 @@ namespace UWP.Pages
             this.InitializeComponent();
         }
 
-        protected  override void OnNavigatedTo(NavigationEventArgs e)
+        protected  override void OnNavigatedTo(NavigationEventArgs e)// hamf này lấy tham số gửi khi chuyển trang
         {
             string msg = e.Parameter as string;
             Title.Text = msg;

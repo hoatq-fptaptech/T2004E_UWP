@@ -26,23 +26,30 @@ namespace UWP.Pages
         public DemoFileHandle()
         {
             this.InitializeComponent();
-            CartItem c = new CartItem(1, "San pham so 1", "image1.png",1000,2);
+            CartItem c = new CartItem(1, "San pham so 1", "image1.png", 1000, 2);
             Cart cart = new Cart();
             cart.AddToCart(c);
 
         }
 
-        private async void Read_File(object sender, RoutedEventArgs e) {
+        private async void Read_File(object sender, RoutedEventArgs e)
+        {
             OrderService os = new OrderService();
             Cart cart = new Cart();
             CreateOrder co = await os.CreateOrder(cart.GetCart());
-           // string txt = await FileHandleService.ReadFile("t2004e.txt");
+            // string txt = await FileHandleService.ReadFile("t2004e.txt");
             TxtBlock.Text = co.data.order_id.ToString();
         }
 
         private void Write_File(object sender, RoutedEventArgs e)
         {
             FileHandleService.WriteFile("t2004e.txt", "Xin chao tat ca cac ban");
+        }
+
+        private void ChuyenTrang(object sender, RoutedEventArgs e)
+        {
+            Food f = new Food();
+            Layout._mainContent.Navigate(typeof(SplitViewDemo),f);
         }
     }
 }

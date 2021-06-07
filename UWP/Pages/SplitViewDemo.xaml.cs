@@ -39,5 +39,11 @@ namespace UWP.Pages
             ListUsers.Items.Add(u1);
             ListUsers.Items.Add(u2);
         }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)// hamf này lấy tham số gửi khi chuyển trang
+        {
+            Food f = e.Parameter as Food;
+
+        }
     }
 }
