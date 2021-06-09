@@ -93,3 +93,8 @@ C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\e_sqlite3.dll
 C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Microsoft.Data.Sqlite\en-US\Microsoft.Data.Sqlite.Properties.Resources.resw
+C:\Aptech\SEM3\T2004E\UWP\UWP\bin\x86\Debug\Pages\Song.xbf
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Song.g.i.cs
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Song.g.cs
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Song.xaml
+C:\Aptech\SEM3\T2004E\UWP\UWP\obj\x86\Debug\Pages\Song.xbf

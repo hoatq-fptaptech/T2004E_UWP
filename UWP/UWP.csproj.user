@@ -4,4 +4,12 @@
     <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
     <UseEmulator>true</UseEmulator>
   </PropertyGroup>
+  <PropertyGroup>
+    <SmallTileSource>C:\Aptech\SEM3\T2004E\UWP\UWP\Assets\bart-simpson.png</SmallTileSource>
+    <MediumTileSource>C:\Aptech\SEM3\T2004E\UWP\UWP\Assets\bart-simpson.scale-100.png</MediumTileSource>
+    <BadgeLogoSource>C:\Aptech\SEM3\T2004E\UWP\UWP\Assets\bart-simpson.scale-100.png</BadgeLogoSource>
+    <PackageLogoSource>C:\Aptech\SEM3\T2004E\UWP\UWP\Assets\bart-simpson.scale-100.png</PackageLogoSource>
+    <Source>C:\Aptech\SEM3\T2004E\UWP\UWP\Assets\bart-simpson.scale-400.png</Source>
+    <AppIconSource>C:\Aptech\SEM3\T2004E\UWP\UWP\Assets\bart-simpson.scale-100.png</AppIconSource>
+  </PropertyGroup>
 </Project>
